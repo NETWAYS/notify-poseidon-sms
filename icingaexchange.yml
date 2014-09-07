@@ -2,9 +2,9 @@ name: notify-poseidon-sms
 description: "file:///README.md"
 url: "https://www.netways.org/projects/plugins"
 tags: ~
-vendor: Netways
-target: Temperature
-type: Plugin
+vendor: HWgroup,NETWAYS
+target: SMS
+type: Notification
 license: gplv2
 releases: 
   - 
@@ -15,5 +15,5 @@ releases:
         name: notify-poseidon-sms.pl
         url: "file:///notify-poseidon-sms.pl"
         description: none
-        checksum: 
+        checksum: fef1a1d8b414c87231740e31587e2947
 
