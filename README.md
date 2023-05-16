@@ -4,8 +4,11 @@ notify-poseidon-sms
 This plugin can be used to send SMS through poseidon sensor
 devices equipped with SOAP interface and SIM card.
 
-    
-### Usage
+## Required Perl Libraries 
+
+* LWP.pm
+
+## Usage
 
     ./notify_poseidon_soap.pl -H 192.0.2.10 -M "Test message" -D 555555555
 
